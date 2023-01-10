@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.print("Введите первое число для вычисления:");
+//        System.out.print("Введите первое число для вычисления:");
         int num1 = s.nextInt();
-        System.out.print("Введите математическую операцию('+' '-' '/' '*'):");
-        String oper = s.next();
-        System.out.print("Введите второе число для вычисления:");
+//        System.out.print("Введите математическую операцию('+' '-' '/' '*'):");
+        String operator = s.next();
+//        System.out.print("Введите второе число для вычисления:");
         int num2 = s.nextInt();
         int result;
 
-        switch (oper) {
+        switch (operator) {
             case "+":
                 result = num1 + num2;
                 break;
