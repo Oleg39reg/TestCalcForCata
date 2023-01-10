@@ -29,7 +29,6 @@ public class Main {
                 result = 0;
                 System.exit(1);
         }
-
         System.out.println("Результат:" + result);
     }
 
